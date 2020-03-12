@@ -2,9 +2,9 @@
     class db{
         // Properties
         private $dbhost = 'remotemysql.com';
-        private $dbuser = 'y64MtsQZL5';
-        private $dbpass = 'ASbmFQRbdB';
-        private $dbname = 'y64MtsQZL5';
+        private $dbuser = 'PAQ7qKsqby';
+        private $dbpass = 'qJDzyviics';
+        private $dbname = 'PAQ7qKsqby';
 
         // Connect
         public function connect(){
