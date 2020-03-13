@@ -36,10 +36,10 @@ $app->get('/api/jugadores', function(Request $request, Response $response){
 });
 
 // Get Single Customer
-$app->get('/api/customer/{id}', function(Request $request, Response $response){
+$app->get('/api/jugadores/{id}', function(Request $request, Response $response){
     $id = $request->getAttribute('id');
 
-    $sql = "SELECT * FROM customers WHERE id = $id";
+    $sql = "SELECT * FROM jugadores WHERE id = $id";
 
     try{
         // Get DB Object
